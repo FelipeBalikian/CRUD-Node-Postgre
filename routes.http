@@ -1,27 +1,27 @@
-POST  http://localhost:3333/videos
+POST  https://crud-node-postgre.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Video 01",
+    "title": "Video 0110",
     "description": "Esse é o primeiro video",
     "duration": 180
 }
 
 ### 
 
-GET  http://localhost:3333/videos
+GET  https://crud-node-postgre.onrender.com/videos
 
 ###
 
-PUT  http://localhost:3333/videos/0502d330-6505-41c3-87e4-4c15a05d92cc
+PUT  https://crud-node-postgre.onrender.com/videos/f0c10d23-c41c-4a09-8a31-fc115654ce98
 Content-Type: application/json
 
 {
-    "title": "Video 02 update 3",
+    "title": "Teste Dep",
     "description": "Esse é o primeiro video",
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3333/videos/0502d330-6505-41c3-87e4-4c15a05d92cc
+DELETE https://crud-node-postgre.onrender.com/videos/f0c10d23-c41c-4a09-8a31-fc115654ce98
